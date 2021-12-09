@@ -33,7 +33,7 @@ export async function getStaticProps(): Promise<any> {
   return {
     props: {
       rezepte: rezepte.items,
-      revalidate: 60,
     },
+    revalidate: 60,
   };
 }

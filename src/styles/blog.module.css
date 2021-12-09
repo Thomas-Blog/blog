@@ -7,6 +7,9 @@
 .section {
   margin-top: 50px;
 }
+.section blockquote {
+  font-style: italic;
+}
 .section h2 {
   text-align: center;
   margin-top: 10px;
