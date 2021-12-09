@@ -1,0 +1,50 @@
+.li {
+  margin-top: 40px;
+  padding: 10px 0;
+  border-bottom: 2px solid black;
+  transition: transform 0.3s ease;
+}
+.li:hover {
+  transform: scale(1.1);
+}
+.top,
+.bot {
+  display: flex;
+}
+.top {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bot {
+  justify-content: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bot span {
+  margin-left: 50px;
+  white-space: nowrap;
+}
+.li a {
+  display: flex;
+  flex-direction: column;
+}
+.li a section {
+  width: 100%;
+  position: relative;
+}
+.img {
+  margin-right: 50px;
+}
+.img img {
+  border-radius: 10px;
+}
+.rezept p span {
+  margin-right: 50px;
+}
+.titel {
+  padding: 10px 0;
+}
+.rezept {
+  display: flex;
+}

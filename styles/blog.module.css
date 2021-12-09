@@ -1,0 +1,18 @@
+.ul,
+.section {
+  width: var(--body-width);
+  margin: auto;
+  margin-bottom: 200px;
+}
+.section blockquote {
+  font-style: italic;
+}
+.section h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.section p,
+.section h4 {
+  margin: 20px 0;
+}

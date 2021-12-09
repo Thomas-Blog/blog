@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.section div {
+  margin: 25px 0;
+}
+.img img {
+  border-radius: 10px;
+}
+.img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
