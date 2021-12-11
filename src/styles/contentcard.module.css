@@ -1,7 +1,7 @@
 .li {
   margin-top: 40px;
   padding: 10px 0;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   transition: transform 0.3s ease;
 }
 .li:hover {
@@ -39,12 +39,12 @@
 .img img {
   border-radius: 10px;
 }
-.rezept p span {
-  margin-right: 50px;
-}
 .titel {
   padding: 10px 0;
 }
 .rezept {
   display: flex;
+}
+.recipeInfo span {
+  font-weight: bold;
 }

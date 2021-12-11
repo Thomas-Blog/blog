@@ -12,7 +12,8 @@ export default function galerie({ rezepte }: any) {
           <div key={rezept.sys.id} className={styles.img}>
             <Link href={"/rezepte/" + rezept.fields.slug}>
               <a>
-                <Image src={"https:" + rezept.fields.bild.fields.file.url} alt="Bild des Gerichts" width={360} height={450} />
+                <Image src={"https:" + rezept.fields.bild.fields.file.url} alt={"Bild zum Rezept:" + rezept.fields.titel} width={360} height={450} />
+                <h3 className={styles.description}>{rezept.fields.titel}</h3>
               </a>
             </Link>
           </div>

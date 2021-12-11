@@ -8,7 +8,6 @@ export default function blogpost({ post }: any) {
   if (!post) {
     return (
       <>
-        <h1>Blog</h1>
         <Skeleton />;
       </>
     );
@@ -23,7 +22,7 @@ export default function blogpost({ post }: any) {
     <>
       <section className={styles.section}>
         <h2>{titel}</h2>
-        <span>{date}</span>
+        <p>{date}</p>
         <article>{documentToReactComponents(text)}</article>
       </section>
     </>

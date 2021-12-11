@@ -4,18 +4,17 @@
   margin: auto;
   margin-bottom: 200px;
 }
-.section {
-  margin-top: 50px;
-}
 .section blockquote {
   font-style: italic;
 }
 .section h2 {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  font-size: 2em;
+  margin-bottom: 100px;
 }
-.section p,
 .section h4 {
-  margin: 20px 0;
+  margin-bottom: 20px;
+}
+.section p {
+  margin-bottom: 50px;
 }

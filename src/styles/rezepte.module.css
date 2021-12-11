@@ -14,6 +14,7 @@
 .section h2 {
   text-align: center;
   font-size: 2em;
+  margin-bottom: 50px;
 }
 .img {
   text-align: center;
@@ -21,9 +22,6 @@
 }
 .img img {
   border-radius: 25px;
-}
-.recipeInfo {
-  margin-top: 50px;
 }
 .zutaten h3 {
   margin-bottom: 50px;
@@ -48,9 +46,11 @@
 .zubereitung h3 {
   margin-bottom: 50px;
 }
-.zubereitung p,
+.zubereitung p {
+  margin-bottom: 50px;
+}
 .zubereitung h4 {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 .schlusswort {
   margin-top: 100px;

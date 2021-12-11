@@ -8,13 +8,13 @@ export default function rezept({ post }: any) {
   if (!post) {
     return (
       <>
-        <h1>Rezepte</h1>
         <Skeleton />;
       </>
     );
   }
 
   const { bild, nahrungstyp, portionen, schwierigkeit, titel, vorwort, zubereitung, zutaten, vorbereitungszeit } = post.fields;
+
   return (
     <>
       <section className={styles.section}>

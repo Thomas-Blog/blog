@@ -6,12 +6,34 @@
   margin-bottom: 200px;
 }
 .section div {
-  margin: 25px 0;
+  margin: 40px 20px;
 }
 .img img {
   border-radius: 10px;
 }
-.img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
+.img {
+  position: relative;
+}
+.description {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.img:hover img {
+  filter: brightness(0.2);
+  transition: filter 0.3s ease;
+}
+.img:hover .description {
+  visibility: visible;
+  opacity: 1;
 }
